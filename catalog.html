@@ -30,7 +30,17 @@
   	    		<h2 class="visually-hidden">Фильтр шаблонов</h2>
   	    		<form class="filter" method="get" action="#">
   	    			<fieldset>
-						<legend>Стоимость:</legend>  	    				
+						<legend>Стоимость:</legend>
+						<ul>
+  	    					<li class="filter-price">
+  	    						От
+  	    						<input class="visually-hidden filter-price filter-input-text" type="text" name="min-price">
+  	    					</li>
+  	    					<li class="filter-price">
+  	    						До
+  	    						<input class="visually-hidden filter-price filter-input-text" type="text" name="max-price">
+  	    					</li>
+  	    				</ul>  	    				
   	    			</fieldset>
   	    			<fieldset>
   	    				<legend>Сетка:</legend>
