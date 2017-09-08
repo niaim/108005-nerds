@@ -11,8 +11,52 @@ a {
   text-decoration: none;
 }
 
-.main-header,
-.main-slider {
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
+}
+
+.button:hover {
+  background-color: #e74246;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7373b;
+}
+
+.order-button-green {
+  background-color: #00ca74;
+}
+
+.order-button-green:hover {
+  background-color: #00bc6c;
+}
+
+.order-button-green:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #00aa62;
+}
+
+.order-button-yellow {
+  background-color: #efc84a;
+}
+
+.order-button-yellow:hover {
+  background-color: #eab534;
+}
+
+.order-button-yellow:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #e5a722;
+}
+
+.top {
   background-color: #eeeeee;
 }
 
@@ -37,24 +81,54 @@ a {
   color: #fb565a;
 }
 
-.site-navigation a:focus,
-.user-navigation a:focus {
-  color: rgba(0,0,0,0.3);
+.site-navigation a:active,
+.user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
-.description h2 {
+.main-slider h2 {
   font-size: 55px;
   line-height: 55px;
   color: #000000;
 }
 
-.description a {
-  
+.list-of-services {
+  list-style: none;
 }
 
-.services h3 {
+.services h4 {
   font-size: 24px;
+  font-weight: bold;
   line-height: 30px;
   color: #000000;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.advantage h4 {
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+.list-of-advantage {
+  list-style: none;
+}
+
+.list-of-indicators {
+  list-style: none;
+}
+
+.numbers-item {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 10.06px;
+}
+
+.list-of-projects {
+  list-style: none;
 }
